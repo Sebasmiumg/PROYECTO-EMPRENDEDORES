@@ -11,6 +11,7 @@ exports.crearTrabajador = async (req, res) => {
   }
 };
 
+
 // Obtener todos los trabajadores
 exports.obtenerTrabajadores = async (req, res) => {
   try {

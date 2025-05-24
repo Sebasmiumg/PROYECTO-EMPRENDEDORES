@@ -20,6 +20,7 @@ exports.crearUsuario = async (req, res) => {
       email: correo, // guardamos como 'email' en BD
       contrasena,
       rol
+      
     });
 
     res.status(201).json({

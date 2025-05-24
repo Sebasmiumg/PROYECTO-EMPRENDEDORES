@@ -12,6 +12,7 @@ if (fs.existsSync(envPath)) {
     const [key, value] = line.split("=");
     if (key && value) process.env[key.trim()] = value.trim();
   });
+  
 }
 
 const transporter = nodemailer.createTransport({
